@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 gem 'devise'
+gem "font-awesome-rails"
 gem 'bootstrap-sass', '~> 3.3.6'
 gem 'simple_form'
 gem "paperclip", "~> 5.0.0"
