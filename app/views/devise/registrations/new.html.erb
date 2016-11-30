@@ -10,18 +10,18 @@
             <%= f.error_notification %>
             <div class="panel-body">
               <div class="form-group">
-                <%= f.text_field :email, required: true, autofocus: true, label: false, placeholder: 'Email', class: 'form-control input-lg' %>
+                <%= f.input :email, required: true, autofocus: true, label: false, placeholder: 'Email', input_html: {class: 'form-control input-lg'} %>
               </div>
               <div class="form-group">
-                <%= f.text_field :user_name, required: true, autofocus: true, label: false, placeholder: 'User Name', class: 'form-control input-lg' %>
+                <%= f.input :user_name, required: true, autofocus: true, label: false, placeholder: 'User Name', input_html: {class: 'form-control input-lg'} %>
               </div>
               <div class="form-group">
-                <%= f.password_field :password, required: true, autofocus: true, label: false, placeholder: 'Password', class: 'form-control input-lg' %>
+                <%= f.input :password, required: true, autofocus: true, label: false, placeholder: 'Password', input_html: {class: 'form-control input-lg'} %>
               </div>
               <div class="form-group">
-                <%= f.password_field :password_confirmation, required: true, autofocus: true, label: false, placeholder: 'Confirm Password', class: 'form-control input-lg' %>
+                <%= f.input :password_confirmation, required: true, autofocus: true, label: false, placeholder: 'Confirm Password', input_html: {class: 'form-control input-lg'} %>
               </div>
-                <%= f.submit "Sign up", class: 'btn-lg btn-info btn-block' %>
+                <%= f.button :submit, "Sign up", class: 'btn-lg btn-info btn-block' %>
             </div>
           <% end %>
         </div>

@@ -20,8 +20,8 @@
 
 
 
-
 body {
+  height: 100%;
   background-color: #fafafa;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica,
 sans-serif;
@@ -160,12 +160,14 @@ sans-serif;
 
 
 /* ## Signup Form ## */
-
 html {
+  height: 100% !important;
+}
+
+.body-container {
   height: 100%;
 }
 
-// .registration-bg {
 .registration-bg {
   padding-top: 4em;
   height: 100%;
@@ -175,6 +177,7 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
 .log-in{
   margin-left: auto;
   margin-right: auto;
@@ -184,6 +187,7 @@ html {
 .panel {
   border-radius: 8px;
 }
+
 .panel-heading{
   h1 {
     text-align: center;
@@ -193,6 +197,17 @@ html {
 .navbar {
   margin-bottom: 0px;
 }
+
 .alert {
   margin-bottom: 0px;
+}
+
+.login-bg {
+  padding-top: 4em;
+  height: 100%;
+  background-image: image-url('splash.jpg');
+  -moz-background-size: cover;
+  -webkit-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
 }
