@@ -211,3 +211,25 @@ html {
   -o-background-size: cover;
   background-size: cover;
 }
+
+div.error_notification {
+  color: #AB2D22;
+  background-color: #F3DEDE;
+  height: 3em;
+  display: flex;
+  justify-content: center; /* align horizontal */
+  align-items: center;
+
+}
+
+span.error {
+  color: #AB2D22;
+}
+
+#image-preview {
+  margin: 0px auto;
+}
+#post_image {
+  padding: 1em;
+  margin: 0px auto;
+}

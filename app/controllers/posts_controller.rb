@@ -27,6 +27,7 @@ class PostsController < ApplicationController
   end
 
   def edit
+    @edit_boolean = true
   end
 
   def update
